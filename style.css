@@ -1,0 +1,181 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+/*font   font-family: 'Poppins', sans-serif; */
+body{
+    
+    font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+}
+
+/*mi header*/
+
+header{
+    display:flex;
+    color: white;
+    background-color: rgb(88, 164, 227);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* mi menu */
+
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin:auto;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* productos */
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    
+ }
+ .item{
+    padding: 3em;
+ }
+
+.footer {
+    background-color:rgb(51, 127, 188);
+    padding: 1em 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.buho{
+    text-align: center;
+}
+
+.direction{
+      font-size: medium;
+}
+
+
+/*                              galeria           */
+
+.miGaleria{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.galeria p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: rgb(169, 188, 227);
+    text-align: center;
+}
+
+/*                       servicios                  */
+
+.cos{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.uniformes{
+    font-family: 'Poppins', sans-serif;
+   font-size: 60px;
+   background-color: rgb(181, 204, 253);
+   text-align: center;
+}
+
+.uniformes h4{
+    font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+}
+
+/*              Nosotros */
+
+.marca p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    background-color: rgb(181, 204, 253);
+    text-align: center;
+ }
+
+ .marca h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    background-color: rgb(169, 188, 227);
+    text-align: center;
+ }
+
+ /*              Mapa            */
+
+ .mapa p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(178, 238, 244);
+    text-align: center;
+ }
+
+ .mapa1{
+    display: flex;
+    justify-content: center;
+ }
+
+
+ /*              contacto           */
+
+
+ .contactos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+ }
+
+ .contactos h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+ }
+
+ .contacto1{
+    display: flex;
+    
+ }
