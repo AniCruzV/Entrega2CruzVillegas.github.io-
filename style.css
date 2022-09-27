@@ -8,14 +8,18 @@ body{
     
     font-family: 'Poppins', sans-serif;
    font-size: 20px;
+   background-color: #8ab0c7;
 }
 
 /*mi header*/
 
 header{
     display:flex;
-    color: white;
-    background-color: rgb(88, 164, 227);
+    color: rgb(43, 5, 5);
+    background: rgb(0,112,255);
+    background: rgb(0,112,255);
+    background: linear-gradient(90deg, rgba(0,112,255,0.7959558823529411) 5%, rgba(19,26,74,1) 37%);
+    
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -48,6 +52,7 @@ header{
     list-style: none;
     padding: 0;
     margin:auto;
+   
     
 }
 
@@ -69,7 +74,7 @@ header{
 .menu li a{
     position: relative;
     font-weight:bold;
-    color:#04324e;
+    color:#166ea4;
     margin: 0px 15px;
 }
 .menu li a:after{
@@ -78,7 +83,7 @@ header{
     left: 0px;
     width: 100%;
     height: 5px;
-    background-color: #000000;
+    background-color: #1d4cc4;
     content: "";
     opacity: 0;
     transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
@@ -100,22 +105,6 @@ header{
  .item{
     padding: 3em;
  }
-
-.footer {
-    background-color:rgb(51, 127, 188);
-    padding: 1em 0;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-}
-
-.buho{
-    text-align: center;
-}
-
-.direction{
-      font-size: medium;
-}
 
 
 /*                              galeria           */
@@ -243,6 +232,19 @@ header{
     text-align: center;
  }
 
+ .item{
+   float:left;
+   background-color: #7cb8f8;
+   margin-top: 0px;
+   
+   
+ }
+ .item img{
+    display:block;
+   position:relative;
+
+ }
+
 
 /* animacion NOSOTROS */
 
@@ -255,7 +257,7 @@ header{
 
   -moz-text-stroke-color: #000000;
 
-  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-color: #060340;
 
 }
 
@@ -332,3 +334,37 @@ h2{
  #boton:hover{
     cursor: pointer;
  }
+
+
+ 
+ /*              Footer           */
+
+ .footer {
+    background: rgb(26,22,93);
+    background: linear-gradient(0deg, rgba(26,22,93,1) 3%, rgba(34,102,195,1) 98%);
+    padding: 2em ;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    
+}
+
+.buho{
+    text-align:start;
+   
+}
+
+.direction{
+      font-size: medium;
+      text-align: center;
+      
+}
+
+.derechos{
+    text-align: center;
+}
+
+.fa-brands{
+    color: #8ab0c7;
+    font-size: 50px;
+}
