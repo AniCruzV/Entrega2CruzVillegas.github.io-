@@ -8,7 +8,7 @@ body{
     
     font-family: 'Poppins', sans-serif;
    font-size: 20px;
-   background-color: #8ab0c7;
+  
 }
 
 /*mi header*/
@@ -173,12 +173,18 @@ header{
 
 /*                       servicios                  */
 
-.cos{
+
+
+/* .cos{
     display: flex;
-    justify-content: center;
+    justify-content:start;
+    font-size: 100px;
 
 }
-
+.cos2{
+    display:flex;
+    justify-content: center;
+} */
 
 .uniformes{
     font-family: 'Poppins', sans-serif;
@@ -232,13 +238,7 @@ header{
     text-align: center;
  }
 
- .item{
-   float:left;
-   background-color: #7cb8f8;
-   margin-top: 0px;
-   
-   
- }
+
  .item img{
     display:block;
    position:relative;
@@ -248,16 +248,16 @@ header{
 
 /* animacion NOSOTROS */
 
-.marca{
+ .marca{
 
   color: transparent;
   -moz-text-stroke-width: 2px;
 
   -webkit-text-stroke-width: 2px;
 
-  -moz-text-stroke-color: #000000;
+  -moz-text-stroke-color: #b11a1a;
 
-  -webkit-text-stroke-color: #060340;
+  -webkit-text-stroke-color: #400335;
 
 }
 
@@ -265,7 +265,7 @@ header{
 
   text-shadow: 7px 7px #8d93ff;
 
-}
+} 
 
 
 
@@ -337,13 +337,13 @@ h2{
 
 
  
- /*              Footer           */
+ /*Footer*/
 
  .footer {
     background: rgb(26,22,93);
     background: linear-gradient(0deg, rgba(26,22,93,1) 3%, rgba(34,102,195,1) 98%);
-    padding: 2em ;
-    text-align: center;
+    padding: 0 ;
+    margin: auto;
     color: #fff;
     width: 100%;
     
@@ -351,7 +351,7 @@ h2{
 
 .buho{
     text-align:start;
-   
+   padding: 1em 3em;
 }
 
 .direction{
@@ -361,10 +361,13 @@ h2{
 }
 
 .derechos{
-    text-align: center;
+    text-align:end;
+    padding:1em;
 }
 
 .fa-brands{
     color: #8ab0c7;
     font-size: 50px;
+    
+    width: 5%;
 }
