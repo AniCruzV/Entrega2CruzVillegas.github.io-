@@ -267,6 +267,9 @@ header{
 
  }
 
+ .producto-container:hover .item {-webkit-transform:scale(1.3);transform:scale(1.3);}
+ .producto-container {overflow:hidden;}
+
 
 /* animacion NOSOTROS */
 
