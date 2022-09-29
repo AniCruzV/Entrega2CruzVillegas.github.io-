@@ -8,6 +8,7 @@ body{
     
     font-family: 'Poppins', sans-serif;
    font-size: 20px;
+   background-image: url(imagenes/azul.jpg);
   
 }
 
@@ -91,7 +92,7 @@ header{
 }
 .menu li a:hover:after{
     opacity:1;
-    transform: translateY(15px)
+    transform: translateY(15px);
 }
 
 
@@ -131,14 +132,14 @@ header{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(100px, auto);
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
 }
 .grid-container img{
     width: auto;
-    height: 500px;
+    height: 400px;
 }
 
 @media (min-whidth: 600px){
@@ -175,16 +176,7 @@ header{
 
 
 
-/* .cos{
-    display: flex;
-    justify-content:start;
-    font-size: 100px;
 
-}
-.cos2{
-    display:flex;
-    justify-content: center;
-} */
 
 .uniformes{
     font-family: 'Poppins', sans-serif;
@@ -211,14 +203,44 @@ header{
   
   }
   
-  .uniformes p {
+.uniformes p {
   
     text-shadow: 7px 0px #5e5ebb;
   
   }
 
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #020f31;
+    color: #fff;
+}
 
+.centrado1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #020f31;
+    color: #fff;
+}
 
+.centrado2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #020f31;
+    color: #fff;
+}
 
 
 /*              Nosotros */
@@ -289,7 +311,13 @@ header{
 
  /*              contacto           */
 
+.fondoimg{
+    background-image: url(imagenes/trabajando.jpg)
+    
+    
 
+    
+}
 
 
 
@@ -305,7 +333,7 @@ form{
  }
 
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin: 0;
     font-size: 30px;
